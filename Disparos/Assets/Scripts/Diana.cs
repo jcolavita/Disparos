@@ -24,7 +24,6 @@ public class Diana : MonoBehaviour
     {
         if (collision.transform.tag == "bala") //solo si la diana entra en colision con un objeto con el tag de bala sera destruido
         {
-            impacto.Play();
             Destroy(gameObject);//destgruye el objeto
             Instantiate(escombros, transform.position, Quaternion.identity);//crea un efecto de particulas al ser destruida la diana
 

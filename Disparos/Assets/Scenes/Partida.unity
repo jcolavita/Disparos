@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: 22ef63684cccf564ab931c177f255b19, type: 2}
+  m_LightingDataAsset: {fileID: 112000000, guid: 7f7bb87cc69f72a4aaec113236bba514, type: 2}
   m_LightingSettings: {fileID: 336620509}
 --- !u!196 &4
 NavMeshSettings:
@@ -905,7 +905,7 @@ LightingSettings:
   m_PrefabAsset: {fileID: 0}
   m_Name: Settings.lighting
   serializedVersion: 4
-  m_GIWorkflowMode: 1
+  m_GIWorkflowMode: 0
   m_EnableBakedLightmaps: 0
   m_EnableRealtimeLightmaps: 0
   m_RealtimeEnvironmentLighting: 1
